@@ -1,0 +1,16 @@
+{
+  "name": "social-media-server",
+  "version": "0.0.1",
+  "description": "backend code of social media application.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development tsc-watch --onSuccess \"node lib/app.js\"",
+    "build": "tsc",
+    "start": "node lib/app.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "github.com/LautaroBlasco23",
+  "license": "ISC"
+}
